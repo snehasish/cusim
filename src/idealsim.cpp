@@ -149,7 +149,6 @@ void *tMain(void * tArgs){
         }
 
         cc->purge(insCount);
-        cc->hub->aggregate();
         cc->hub->stats(false);
         if(optHint && optAligned) cc->hub->dumpHint(optHintFilePath);
     }
