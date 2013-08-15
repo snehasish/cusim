@@ -1,6 +1,6 @@
 # CUSIM - Cache Utilisation Simulator
 
-Measures utilisation and of cache space for a single threaded memory trace with the option of having varying block sizes and prediction policies.
+Measures utilisation (data touched within a line before it is evicted) of cache space for a single threaded memory trace with the option of having varying block sizes and prediction policies.
 
 # Dependencies
 
